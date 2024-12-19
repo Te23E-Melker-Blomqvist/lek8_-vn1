@@ -1,6 +1,6 @@
 /* Melker Blomqvist, Te23E */
 
-h1, h2, a, footer{
+h1, h2, footer{
     text-align: center;
 }
 
@@ -28,7 +28,7 @@ body, main{
     flex-direction: column;
 }
 
-@media screen and (min-width:820px) {
+@media screen and  (min-width:640px) and (max-width: 1180px)  {
     body{
         display: grid;
         grid-template-columns: 1fr 7fr;
@@ -44,12 +44,6 @@ body, main{
     footer{
         grid-column: 1/3;
         grid-row: 3/4;
-    }
-}
-
-@media screen and (min-width:820px) and (max-width: 1180px) {
-    main{
-        justify-content: center;
     }
 }
 
